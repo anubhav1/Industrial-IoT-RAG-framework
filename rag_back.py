@@ -2,7 +2,7 @@ import boto3
 
 # Set up Bedrock client
 
-kb_id = 'JGHYSNHPKU'
+kb_id = 'XXXXXXX'
 session = boto3.Session()
 bedrock = session.client(service_name='bedrock-agent-runtime') 
 
